@@ -37,11 +37,9 @@ fn is_palindrome(digits: &Vec<u8>) -> bool {
 
 fn main() {
     let mut largest: u64 = 0;
-
     for i in 100..999 {
         for j in 100..999 {
-            let num = i * j;
-            let digits = number_to_vec(num);
+            let digits = number_to_vec(i*j);
             if is_palindrome(&digits) {
                 let number = vec_to_number(digits);
                 if number > largest {
