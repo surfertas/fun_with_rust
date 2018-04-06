@@ -1,0 +1,6 @@
+[package]
+name = "libeuler"
+version = "0.1.0"
+authors = ["surfertas <tasuku@gmail.com>"]
+
+[dependencies]
