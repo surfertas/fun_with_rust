@@ -1,0 +1,7 @@
+[package]
+name = "problem7"
+version = "0.1.0"
+authors = ["surfertas <tasuku@gmail.com>"]
+
+[dependencies]
+libeuler={path="/home/tasuku/workspace/rust/project_euler/libeuler"}
